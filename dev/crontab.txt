@@ -1,1 +1,0 @@
-* * * * * /nas/bfeitknecht/homepage/dev/testing.sh >> /nas/bfeitknecht/homepage/dev/cron.log 2>&1
