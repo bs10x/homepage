@@ -9,6 +9,10 @@
 
 
 
+# run "persistence.sh" at reboot and log all output to "reboot.log"
+@reboot /bin/bash /nas/bfeitknecht/homepage/dev/persistence.sh >> /nas/bfeitknecht/homepage/dev/reboot.log
+
+
 ##############
 # testing what is wrong with "bad interpreter error"
 #*/5 * * * * /bin/bash /nas/bfeitknecht/homepage/dev/minute.sh >> /nas/bfeitknecht/homepage/dev/minute.log 2>&1
