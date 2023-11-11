@@ -15,6 +15,9 @@ sed -i "s/<span id=\"modified\">.*<\/span>/<span id=\"modified\">$now<\/span>/" 
 # add all changes and commit with timestamp
 git commit -a -m "daily commit ($now)"
 
+# echo changes committed:
+git log -2 --stat --pretty --graph --oneline
+
 # Push the changes to the upstream remote origin master branch
 git push -u origin master
 
