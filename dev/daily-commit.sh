@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # echo the current time
-echo -e "$(date):\n"
+echo -e "$(date):"
 
 # Navigate to the directory containing the HTML file
 cd ~/homepage/dev
@@ -19,4 +19,4 @@ git commit -a -m "daily commit ($now)"
 git push -u origin master
 
 # make line breaks
-echo -e "\n\n"
+echo -e "\n"
